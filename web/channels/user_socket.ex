@@ -4,6 +4,8 @@ defmodule HelloPhoenix.UserSocket do
   ## Channels
   # channel "rooms:*", HelloPhoenix.RoomChannel
 
+  channel "rooms:*", HelloPhoenix.RoomChannel
+
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
   # transport :longpoll, Phoenix.Transports.LongPoll
